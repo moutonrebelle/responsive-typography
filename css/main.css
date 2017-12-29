@@ -22,7 +22,7 @@ html {
 
 body {
   font-size: 1rem;
-  margin: 1.3rem 0 1.3rem 0;
+  margin: 1.3rem 0;
 }
 
 article {
@@ -65,34 +65,34 @@ blockquote {
   color: #999;
 }
 
-ol {
+article ol {
   padding-left: 1rem;
   padding-right: 1rem;
 }
 
 @media only screen and (min-width: 38em) {
 
-html {
-  font-size: 110%;
-  line-height: 1.4;
-}
+  html {
+    font-size: 110%;
+    line-height: 1.4;
+  }
 
-body {
-  font-size: 1rem;
-  margin: 1.4rem 0 1.4rem 0;
-}
+  body {
+    font-size: 1rem;
+    margin: 1.4rem 0;
+  }
 
-article header {
-  margin: 0 0 1.4rem;
-}
+  article header {
+    margin: 0 0 1.4rem;
+  }
 
-article p {
-  margin: 0 0 1.4rem;
-}
+  article p {
+    margin: 0 0 1.4rem;
+  }
 
-blockquote {
-  margin: 0 0 1.4rem;
-}
+  blockquote {
+    margin: 0 0 1.4rem;
+  }
 
 }
 
